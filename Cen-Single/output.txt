@@ -1,0 +1,184 @@
+Usado para treinar:
+
+
+============================================================== 
+   :::  POWER CONTROL SUMMARY  :::
+
+-   Média dos ganhos das transmissões:  60.99
+-   Desvio padrão:  16.49
+-   Tamanho da amostra: 490
+============================================================== 
+
+
+============================================================== 
+17/06/2019 - 13:56:41
+
+   :::  LQE SUMMARY  :::
+        LQE: LQM3
+
+-   Envios solicitados: 250
+-   Total de envios efetivos: 491
+-   Total geral de acks recebidos: 245
+-   Quantidade de retransmissões: 241
+-   Relação envios/pacotes recebidos:   2.00
+-   Taxa de entrega:  98.00 percent
+-   Tempo medio de recebimento de acks: 150.79
+-   Desvio padrao do tempo de recebimento de acks: 125.38
+-   ------------------------------------
+-   Erro medio Machine Learning LQM3:   0.35 percent
+-   Tamanho serie erro ML LQM3: 724 entradas 
+-   Tempo medio para processar LQM3:   7.48 miliseconds
+-   Desvio padrao do tempo para processar LQM3:   8.90
+-   Qtde de treinos da serie LQM3: 25 
+-   Qtde de concept drift detectado:   5.00
+-   Parametros da ML: 
+{'presort': False, 'splitter': 'best', 'min_impurity_decrease': 0.0, 'max_leaf_nodes': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'criterion': 'mse', 'random_state': None, 'min_impurity_split': None, 'max_features': None, 'max_depth': None}
+
+-   Depth da ML: 
+[5, 7, 7, 10, 10, 14, 14, 15, 19, 19, 19, 23, 24, 20, 20, 24, 24, 24, 24, 25, 26, 26, 26, 26, 13]
+
+-   Leaves da ML: 
+[7, 20, 20, 33, 33, 55, 56, 87, 112, 113, 114, 114, 118, 129, 129, 130, 129, 130, 130, 129, 122, 122, 122, 123, 67]
+============================================================== 
+
+
+
+
+
+
+
+USO REAL (load)
+
+
+============================================================== 
+   :::  POWER CONTROL SUMMARY  :::
+
+-   Média dos ganhos das transmissões:  52.69
+-   Desvio padrão:   0.62
+-   Tamanho da amostra: 466
+============================================================== 
+
+
+============================================================== 
+17/06/2019 - 14:30:43
+
+   :::  LQE SUMMARY  :::
+        LQE: LQM3
+
+-   Envios solicitados: 251
+-   Total de envios efetivos: 467
+-   Total geral de acks recebidos: 242
+-   Quantidade de retransmissões: 216
+-   Relação envios/pacotes recebidos:   1.93
+-   Taxa de entrega:  96.41 percent
+-   Tempo medio de recebimento de acks:  19.50
+-   Desvio padrao do tempo de recebimento de acks:  14.51
+-   ------------------------------------
+-   Erro medio Machine Learning LQM3:   0.13 percent
+-   Tamanho serie erro ML LQM3: 697 entradas 
+-   Tempo medio para processar LQM3:   0.04 miliseconds
+-   Desvio padrao do tempo para processar LQM3:   0.25
+-   Qtde de treinos da serie LQM3: 12 
+-   Qtde de concept drift detectado:  12.00
+-   Parametros da ML: 
+{'presort': False, 'splitter': 'best', 'min_impurity_decrease': 0.0, 'max_leaf_nodes': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'criterion': 'mse', 'random_state': None, 'min_impurity_split': None, 'max_features': None, 'max_depth': None}
+
+-   Depth da ML: 
+[8, 5, 5, 5, 6, 4, 4, 4, 4, 7, 7, 9]
+
+-   Leaves da ML: 
+[15, 11, 9, 8, 7, 6, 7, 8, 11, 12, 12, 15]
+============================================================== 
+
+
+
+
+
+
+============================================================== 
+   :::  POWER CONTROL SUMMARY  :::
+
+-   Média dos ganhos das transmissões:  49.53
+-   Desvio padrão:   2.39
+-   Tamanho da amostra: 488
+============================================================== 
+
+
+============================================================== 
+17/06/2019 - 14:39:50
+
+   :::  LQE SUMMARY  :::
+        LQE: LQM3
+
+-   Envios solicitados: 251
+-   Total de envios efetivos: 489
+-   Total geral de acks recebidos: 245
+-   Quantidade de retransmissões: 238
+-   Relação envios/pacotes recebidos:   2.00
+-   Taxa de entrega:  97.61 percent
+-   Tempo medio de recebimento de acks:   8.51
+-   Desvio padrao do tempo de recebimento de acks:  12.19
+-   ------------------------------------
+-   Erro medio Machine Learning LQM3:   0.06 percent
+-   Tamanho serie erro ML LQM3: 722 entradas 
+-   Tempo medio para processar LQM3:   0.01 miliseconds
+-   Desvio padrao do tempo para processar LQM3:   0.04
+-   Qtde de treinos da serie LQM3: 1 
+-   Qtde de concept drift detectado:   1.00
+-   Parametros da ML: 
+{'presort': False, 'splitter': 'best', 'min_impurity_decrease': 0.0, 'max_leaf_nodes': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'criterion': 'mse', 'random_state': None, 'min_impurity_split': None, 'max_features': None, 'max_depth': None}
+
+-   Depth da ML: 
+[13, 5]
+
+-   Leaves da ML: 
+[11]
+============================================================== 
+
+
+
+
+
+
+
+
+============================================================== 
+   :::  POWER CONTROL SUMMARY  :::
+
+-   Média dos ganhos das transmissões:  52.74
+-   Desvio padrão:   0.22
+-   Tamanho da amostra: 466
+============================================================== 
+
+
+============================================================== 
+17/06/2019 - 14:49:14
+
+   :::  LQE SUMMARY  :::
+        LQE: LQM3
+
+-   Envios solicitados: 250
+-   Total de envios efetivos: 467
+-   Total geral de acks recebidos: 245
+-   Quantidade de retransmissões: 217
+-   Relação envios/pacotes recebidos:   1.91
+-   Taxa de entrega:  98.00 percent
+-   Tempo medio de recebimento de acks: 143.79
+-   Desvio padrao do tempo de recebimento de acks: 137.36
+-   ------------------------------------
+-   Erro medio Machine Learning LQM3:   0.13 percent
+-   Tamanho serie erro ML LQM3: 699 entradas 
+-   Tempo medio para processar LQM3:   0.01 miliseconds
+-   Desvio padrao do tempo para processar LQM3:   0.01
+-   Qtde de treinos da serie LQM3: 0 
+-   Qtde de concept drift detectado:   0.00
+-   Parametros da ML: 
+{'presort': False, 'splitter': 'best', 'min_impurity_decrease': 0.0, 'max_leaf_nodes': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'criterion': 'mse', 'random_state': None, 'min_impurity_split': None, 'max_features': None, 'max_depth': None}
+
+-   Depth da ML: 
+[13]
+
+-   Leaves da ML: 
+[]
+============================================================== 
+

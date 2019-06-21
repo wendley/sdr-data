@@ -1,0 +1,30 @@
+Traces originais
+
+>>> df.skew() # Medida da forma
+
+Unnamed: 0     0.317234
+
+rssi          -1.112986
+prr            0.876072
+prr2           1.083139
+snr            2.595762
+txentrega      1.203634
+relacao        6.123992
+latencia-ms   -2.121484
+potencia       0.304707
+dtype: float64
+
+
+
+df.kurtosis()
+Unnamed: 0     -1.052603
+rssi           -0.463375
+prr            -0.499189
+prr2            0.100357
+snr             6.251851
+txentrega       0.437821
+relacao        87.786679
+latencia-ms     2.514379
+potencia       -1.239926
+dtype: float64
+
