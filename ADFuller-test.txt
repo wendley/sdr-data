@@ -1,0 +1,76 @@
+Augmented Dickey-Fuller Test - adfuller test:
+
+rssi
+
+('ADF is ', -1.8809352602029175)
+('p value is ', 0.34108222545192313)
+('lags used are ', 63)
+('Number of observations are ', 71407)
+('Critical Values are', {'5%': -2.8615804772543556, '1%': -3.4304415811487745, '10%': -2.5667915446572169})
+[Finished in 39.3s]
+Fail to reject the null hypothesis that unit root does exist. 
+
+
+prr
+('ADF is ', -4.6541677396442935)
+('p value is ', 0.00010251733849562622)
+('lags used are ', 41)
+('Number of observations are ', 71429)
+('Critical Values are', {'5%': -2.8615804647871803, '1%': -3.4304415529409362, '10%': -2.5667915380213326})
+We can reject the Null hypothesis and instead accept the alternate hypothesis that stationarity exists. 
+
+
+prr2
+('ADF is ', -3.2256549804771084)
+('p value is ', 0.018546873830937449)
+('lags used are ', 63)
+('Number of observations are ', 71407)
+('Critical Values are', {'5%': -2.8615804772543556, '1%': -3.4304415811487745, '10%': -2.5667915446572169})
+we can reject the Null hypothesis and instead accept the alternate hypothesis that stationarity exists. 
+
+snr
+('ADF is ', -9.5566164376269711)
+('p value is ', 2.4890655107174294e-16)
+('lags used are ', 63)
+('Number of observations are ', 71407)
+('Critical Values are', {'5%': -2.8615804772543556, '1%': -3.4304415811487745, '10%': -2.5667915446572169})
+we can reject the Null hypothesis and instead accept the alternate hypothesis that stationarity exists. 
+
+
+txentrega
+('ADF is ', -2.4969812630938297)
+('p value is ', 0.11621054484142374)
+('lags used are ', 46)
+('Number of observations are ', 71424)
+('Critical Values are', {'5%': -2.8615804676199548, '1%': -3.4304415593502826, '10%': -2.5667915395291292})
+Fail to reject the null hypothesis that unit root does exist. 
+
+
+relacao
+('ADF is ', -6.7004033556460483)
+('p value is ', 3.9024379822141029e-09)
+('lags used are ', 62)
+('Number of observations are ', 71408)
+('Critical Values are', {'5%': -2.8615804766874993, '1%': -3.4304415798662231, '10%': -2.5667915443554969})
+we can reject the Null hypothesis and instead accept the alternate hypothesis that stationarity exists. 
+
+latencia-ms
+('ADF is ', -4.9604815968717579)
+('p value is ', 2.6556933691609635e-05)
+('lags used are ', 63)
+('Number of observations are ', 71407)
+('Critical Values are', {'5%': -2.8615804772543556, '1%': -3.4304415811487745, '10%': -2.5667915446572169})
+we can reject the Null hypothesis and instead accept the alternate hypothesis that stationarity exists. 
+
+potencia
+('ADF is ', -2.9253189782540172)
+('p value is ', 0.042481973141021853)
+('lags used are ', 0)
+('Number of observations are ', 71470)
+('Critical Values are', {'5%': -2.8615804415733805, '1%': -3.4304415004181239, '10%': -2.5667915256653591})
+[Finished in 297.7s]
+we can reject the Null hypothesis and instead accept the alternate hypothesis that stationarity exists. 
+
+
+
+http://www.insightsbot.com/blog/1MH61d/augmented-dickey-fuller-test-in-python
