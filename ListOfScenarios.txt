@@ -1,0 +1,14 @@
+C1 - SINGLE SENDER, NO ARTIFICIAL NOISE
+C2 - SINGLE SENDER, WITH ARTIFICIAL NOISE
+C3 - MULTIPLE SENDERS, NO ARTIFICIAL NOISE
+
+
+---------------------------------------------------
+|                |   NO ARTIFICIAL NOISE     | C1 |
+|  SINGLE        |---------------------------|----|
+|  SENDER        |   WITH ARTIFICIAL NOISE   | C2 |
+|----------------|---------------------------|----|
+|  MULTIPLE      |   NO ARTIFICIAL NOISE     | C3 |
+|  SENDERS       |                           |    |
+---------------------------------------------------
+

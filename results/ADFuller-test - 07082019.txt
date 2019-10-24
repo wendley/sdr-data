@@ -1,0 +1,86 @@
+\begin{verbatim}
+ADF Test over RSSI dataset
+Augmented Dickey-Fuller Test Results:
+ADF Test Statistic         -1.880935
+P-Value                     0.341082
+# Lags Used                63.000000
+# Observations Used     71407.000000
+Critical Value (5%)        -2.861580
+Critical Value (1%)        -3.430442
+Critical Value (10%)       -2.566792
+dtype: float64
+Is the time series stationary? False
+[Finished in 22.6s]
+
+
+ADF Test over SNR dataset
+Augmented Dickey-Fuller Test Results:
+ADF Test Statistic     -9.556616e+00
+P-Value                 2.489066e-16
+# Lags Used             6.300000e+01
+# Observations Used     7.140700e+04
+Critical Value (5%)    -2.861580e+00
+Critical Value (1%)    -3.430442e+00
+Critical Value (10%)   -2.566792e+00
+dtype: float64
+Is the time series stationary? True
+[Finished in 22.8s]
+
+
+ADF Test over PRR dataset
+Augmented Dickey-Fuller Test Results:
+ADF Test Statistic         -4.654168
+P-Value                     0.000103
+# Lags Used                41.000000
+# Observations Used     71429.000000
+Critical Value (5%)        -2.861580
+Critical Value (1%)        -3.430442
+Critical Value (10%)       -2.566792
+dtype: float64
+Is the time series stationary? True
+[Finished in 22.3s]
+
+
+ADF Test over deliveryRate dataset
+Augmented Dickey-Fuller Test Results:
+ADF Test Statistic         -2.496981
+P-Value                     0.116211
+# Lags Used                46.000000
+# Observations Used     71424.000000
+Critical Value (5%)        -2.861580
+Critical Value (1%)        -3.430442
+Critical Value (10%)       -2.566792
+dtype: float64
+Is the time series stationary? False
+[Finished in 22.5s]
+
+
+ADF Test over ratio dataset
+Augmented Dickey-Fuller Test Results:
+ADF Test Statistic     -6.700403e+00
+P-Value                 3.902438e-09
+# Lags Used             6.200000e+01
+# Observations Used     7.140800e+04
+Critical Value (5%)    -2.861580e+00
+Critical Value (1%)    -3.430442e+00
+Critical Value (10%)   -2.566792e+00
+dtype: float64
+Is the time series stationary? True
+[Finished in 23.3s]
+
+
+ADF Test over latency-ms dataset
+Augmented Dickey-Fuller Test Results:
+ADF Test Statistic         -4.960482
+P-Value                     0.000027
+# Lags Used                63.000000
+# Observations Used     71407.000000
+Critical Value (5%)        -2.861580
+Critical Value (1%)        -3.430442
+Critical Value (10%)       -2.566792
+dtype: float64
+Is the time series stationary? True
+[Finished in 23.6s]
+
+
+\end{verbatim}
