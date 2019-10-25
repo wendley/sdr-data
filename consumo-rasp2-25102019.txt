@@ -1,0 +1,58 @@
+EQUIPAMENTO 2
+
+CONSUMO MEMORIA, DISCO E CPU
+
+------------------------------
+LOGO APÓS LIGAR RASPBERRY:
+------------------------------
+
+root@4550fb1a4c88:/# free -h
+             total       used       free     shared    buffers     cached
+Mem:          927M       850M        76M        47M       173M       324M
+-/+ buffers/cache:       352M       574M
+Swap:          99M         0B        99M
+
+
+root@4550fb1a4c88:/# df -h
+Filesystem      Size  Used Avail Use% Mounted on
+overlay          15G  8.3G  5.3G  62% /
+tmpfs            64M     0   64M   0% /dev
+/dev/root        15G  8.3G  5.3G  62% /etc/hosts
+shm              64M     0   64M   0% /dev/shm
+
+
+root@4550fb1a4c88:/# free
+             total       used       free     shared    buffers     cached
+Mem:        949452     870908      78544      48692     177980     332008
+-/+ buffers/cache:     360920     588532
+Swap:       102396          0     102396
+
+
+root@4550fb1a4c88:/# df
+Filesystem     1K-blocks    Used Available Use% Mounted on
+overlay         14756784 8601384   5495588  62% /
+tmpfs              65536       0     65536   0% /dev
+/dev/root       14756784 8601384   5495588  62% /etc/hosts
+shm                65536       0     65536   0% /dev/shm
+
+
+------------------
+APÓS INSTALAR MÓDULOS:
+
+
+
+
+root@4550fb1a4c88:/home# df -h
+Filesystem      Size  Used Avail Use% Mounted on
+overlay          15G  8.5G  5.1G  63% /
+tmpfs            64M     0   64M   0% /dev
+/dev/root        15G  8.5G  5.1G  63% /etc/hosts
+shm              64M     0   64M   0% /dev/shm
+
+root@4550fb1a4c88:/home# free -h
+             total       used       free     shared    buffers     cached
+Mem:          927M       527M       399M        47M        27M       289M
+-/+ buffers/cache:       210M       716M
+Swap:          99M       512K        99M
+
+

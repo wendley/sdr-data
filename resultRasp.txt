@@ -1,0 +1,100 @@
+0,DecTreeReg,['prr2'],mean,0.9954934522342791,-0.000388273455435244,-0.004335673425571866,0.9954950002331359
+1,DecTreeReg,['prr2'],std,0.0005555502980964297,4.727318367723627e-05,0.00038689901066589526,0.0005547877292269527
+0,DecTreeReg,['prr2'],mean,0.9960600577252137,-0.00033570317116974794,-0.004032438693882792,0.9960636112934518
+1,DecTreeReg,['prr2'],std,0.00032300342865731606,2.69099371771726e-05,0.00016298968150235612,0.00032106094814549676
+
+
+
+
+
+
+
+=============================
+
+
+Em execucao, aguarde...
+TARGET -- prr2...
+['prr2']
+
+------------------------------
+
+Cross validation com shuffle split
+Target: 
+['prr2']
+
+------------------------------
+
+Tempo de treinamento/carregamento: 
+0:00:00.421781
+DecTreeReg
+Trainning time:
+0:00:00.421781
+
+------------------------------
+
+[]
+root@36cf3bcdf89b:/home/sdr# vi treinamento-rasp.py 
+root@36cf3bcdf89b:/home/sdr# python treinamento-rasp.py 
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/fixes.py:313: FutureWarning: numpy not_equal will not check object identity in the future. The comparison did not return the same result as suggested by the identity (`is`)) and will change.
+  _nan_object_mask = _nan_object_array != _nan_object_array
+
+=============================
+
+
+Em execucao, aguarde...
+TARGET -- prr2...
+['prr2']
+
+------------------------------
+
+Cross validation com shuffle split
+Target: 
+['prr2']
+
+------------------------------
+
+DecTreeReg
+Trainning time:
+0:00:03.180784
+
+------------------------------
+
+
+
+uname -r
+4.14.37-v7+
+
+
+uname -v
+#1111 SMP Thu Apr 26 13:56:59 BST 2018
+
+name -n
+36cf3bcdf89b
+
+uname --m
+armv7l
+
+uname -p
+unknown
+
+
+uname -a
+Linux 36cf3bcdf89b 4.14.37-v7+ #1111 SMP Thu Apr 26 13:56:59 BST 2018 armv7l GNU/Linux
+
+lshw
+
+
+lshw -short
+H/W path  Device    Class      Description
+==========================================
+                    system     Raspberry Pi 3 Model B Rev 1.2
+/0                  bus        Motherboard
+/0/0                processor  cpu
+/0/1                processor  cpu
+/0/2                processor  cpu
+/0/3                processor  cpu
+/0/4                memory     927MiB System memory
+/1        virtual0  network    Ethernet interface
+/2        eth0      network    Ethernet interface
+/3        wlan0     network    Wireless interface
+

@@ -1,0 +1,108 @@
+EQUIPAMENTO 1
+
+CONSUMO MEMORIA, DISCO E CPU
+
+------------------------------
+LOGO APÓS INSTALAR BIBLIOTECAS:
+------------------------------
+
+root@f1e8ab9c4914:~# free -h
+             total       used       free     shared    buffers     cached
+Mem:          927M       570M       356M        47M        62M       334M
+-/+ buffers/cache:       173M       753M
+Swap:          99M       768K        99M
+
+
+root@f1e8ab9c4914:~# df -h
+Filesystem      Size  Used Avail Use% Mounted on
+overlay          15G  5.3G  8.3G  39% /
+tmpfs            64M     0   64M   0% /dev
+/dev/root        15G  5.3G  8.3G  39% /etc/hosts
+shm              64M     0   64M   0% /dev/shm
+
+
+root@f1e8ab9c4914:~# free
+             total       used       free     shared    buffers     cached
+Mem:        949452     584740     364712      48680      64448     342392
+-/+ buffers/cache:     177900     771552
+Swap:       102396        768     101628
+
+
+root@f1e8ab9c4914:~# df
+Filesystem     1K-blocks    Used Available Use% Mounted on
+overlay         14776048 5469336   8642028  39% /
+tmpfs              65536       0     65536   0% /dev
+/dev/root       14776048 5469336   8642028  39% /etc/hosts
+shm                65536       0     65536   0% /dev/shm
+
+
+
+---------------
+
+Successfully installed memory-profiler psutil
+Cleaning up...
+
+root@f1e8ab9c4914:~# free
+             total       used       free     shared    buffers     cached
+Mem:        949452     587860     361592      48680      64876     345672
+-/+ buffers/cache:     177312     772140
+Swap:       102396        768     101628
+
+root@f1e8ab9c4914:~# df
+Filesystem     1K-blocks    Used Available Use% Mounted on
+overlay         14776048 5471656   8639708  39% /
+tmpfs              65536       0     65536   0% /dev
+/dev/root       14776048 5471656   8639708  39% /etc/hosts
+shm                65536       0     65536   0% /dev/shm
+
+root@f1e8ab9c4914:~# free -h
+             total       used       free     shared    buffers     cached
+Mem:          927M       574M       353M        47M        63M       337M
+-/+ buffers/cache:       173M       754M
+Swap:          99M       768K        99M
+
+root@f1e8ab9c4914:~# df -h
+Filesystem      Size  Used Avail Use% Mounted on
+overlay          15G  5.3G  8.3G  39% /
+tmpfs            64M     0   64M   0% /dev
+/dev/root        15G  5.3G  8.3G  39% /etc/hosts
+shm              64M     0   64M   0% /dev/shm
+
+
+
+------------------------
+IMEDIATAMENTE ANTES DE EXECUTAR ML:
+------------------------
+
+root@f1e8ab9c4914:/home/sdr# df -h
+Filesystem      Size  Used Avail Use% Mounted on
+overlay          15G  5.4G  8.2G  40% /
+tmpfs            64M     0   64M   0% /dev
+/dev/root        15G  5.4G  8.2G  40% /etc/hosts
+shm              64M     0   64M   0% /dev/shm
+
+root@f1e8ab9c4914:/home/sdr# free -h
+             total       used       free     shared    buffers     cached
+Mem:          927M       740M       186M        47M        64M       500M
+-/+ buffers/cache:       175M       751M
+Swap:          99M       768K        99M
+
+
+------------------------
+APÓS ML:
+------------------------
+
+root@f1e8ab9c4914:/home/sdr# df -h
+Filesystem      Size  Used Avail Use% Mounted on
+overlay          15G  5.4G  8.1G  40% /
+tmpfs            64M     0   64M   0% /dev
+/dev/root        15G  5.4G  8.1G  40% /etc/hosts
+shm              64M     0   64M   0% /dev/shm
+
+root@f1e8ab9c4914:/home/sdr# free -h
+             total       used       free     shared    buffers     cached
+Mem:          927M       561M       365M        47M        16M       370M
+-/+ buffers/cache:       174M       753M
+Swap:          99M       768K        99M
+
+
